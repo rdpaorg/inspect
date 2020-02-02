@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="../../sites/inspect.rdpa.org/files/garland_favicon_0.ico" type="image/x-icon" />
+    <title>ChIP-seq | INsPeCT</title>
+    <link type="text/css" rel="stylesheet" media="all" href="http://inspect.rdpa.org/modules/node/node.css?t" />
+<link type="text/css" rel="stylesheet" media="all" href="http://inspect.rdpa.org/modules/system/defaults.css?t" />
+<link type="text/css" rel="stylesheet" media="all" href="http://inspect.rdpa.org/modules/system/system.css?t" />
+<link type="text/css" rel="stylesheet" media="all" href="http://inspect.rdpa.org/modules/system/system-menus.css?t" />
+<link type="text/css" rel="stylesheet" media="all" href="http://inspect.rdpa.org/modules/user/user.css?t" />
+<link type="text/css" rel="stylesheet" media="all" href="../../sites/inspect.rdpa.org/files/color/garland-73a3657e/stylee358.css?t" />
+<link type="text/css" rel="stylesheet" media="print" href="http://inspect.rdpa.org/themes/garland/print.css?t" />
+    <script type="text/javascript" src="http://inspect.rdpa.org/misc/jquery.js?t"></script>
+<script type="text/javascript" src="http://inspect.rdpa.org/misc/drupal.js?t"></script>
+<script type="text/javascript" src="../../sites/all/modules/piwik/piwike358.js?t"></script>
+<script type="text/javascript" src="http://inspect.rdpa.org/misc/collapse.js?t"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "piwik": { "trackMailto": 1 } });
+//--><!]]>
+</script>
+    <!--[if lt IE 7]>
+      <link type="text/css" rel="stylesheet" media="all" href="/themes/garland/fix-ie.css" />    <![endif]-->
+  </head>
+  <body class="sidebar-left">
+
+<!-- Layout -->
+  <div id="header-region" class="clear-block"></div>
+
+    <div id="wrapper">
+    <div id="container" class="clear-block">
+
+      <div id="header">
+        <div id="logo-floater">
+        <h1><a href="../../" title="INsPeCT"><span>INsPeCT</span></a></h1>        </div>
+
+                  <ul class="links primary-links"><li class="menu-122 first"><a href="../../node/1" title="INsPeCT - INtegratve Platform for Cancer Transcriptomics">Home</a></li>
+<li class="menu-125"><a href="../../node/4" title="Flowcharts">Flowcharts</a></li>
+<li class="menu-126"><a href="../../node/5" title="User Manual">User manual</a></li>
+<li class="menu-124"><a href="../../node/3" title="Sample Datasets">Sample Datasets</a></li>
+<li class="menu-123 last"><a href="../../node/2" title="About Us">About Us</a></li>
+</ul>                          <ul class="links secondary-links"><li class="menu-462 active-trail first active"><a href="chip-seq" title="ChIP-seq Data Import" class="active">ChIP-seq</a></li>
+<li class="menu-463"><a href="genelist" title="Gene-list Analysis">Gene-list Analysis</a></li>
+<li class="menu-465"><a href="microarray" title="Microarraay Data Import">Microarray</a></li>
+<li class="menu-466"><a href="rmani" title="RMaNI - Regulatory Module Network Inference Workflow">RMaNI</a></li>
+<li class="menu-467"><a href="rna-seq" title="RNA-seq Data Import">RNA-seq</a></li>
+<li class="menu-468 last"><a href="wgcna" title="WGCNA - Weighted Gene Co-expression Network Analysis">WGCNA</a></li>
+</ul>        
+      </div> <!-- /header -->
+
+              <div id="sidebar-left" class="sidebar">
+                    <div id="block-menu-secondary-links" class="clear-block block block-menu">
+
+  <h2>Links</h2>
+
+  <div class="content"><ul class="menu"><li class="leaf first active-trail"><a href="chip-seq" title="ChIP-seq Data Import" class="active">ChIP-seq</a></li>
+<li class="leaf"><a href="genelist" title="Gene-list Analysis">Gene-list Analysis</a></li>
+<li class="leaf"><a href="microarray" title="Microarraay Data Import">Microarray</a></li>
+<li class="leaf"><a href="rmani" title="RMaNI - Regulatory Module Network Inference Workflow">RMaNI</a></li>
+<li class="leaf"><a href="rna-seq" title="RNA-seq Data Import">RNA-seq</a></li>
+<li class="leaf last"><a href="wgcna" title="WGCNA - Weighted Gene Co-expression Network Analysis">WGCNA</a></li>
+</ul></div>
+</div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <div class="breadcrumb"><a href="../../">Home</a></div>                              <h2>ChIP-seq</h2>                                                  <div class="clear-block">
+            <form action="http://inspect.rdpa.org/bi/inspect/chip-seq"  accept-charset="UTF-8" method="post" id="bi-inspect-chipseq-form" enctype="multipart/form-data">
+<div><div class="form-item" id="edit-analysisname-wrapper">
+ <label for="edit-analysisname">Analysis name: </label>
+ <input type="text" maxlength="128" name="analysisname" id="edit-analysisname" size="60" value="" class="form-text" />
+ <div class="description">Please eneter a short name for your analysis</div>
+</div>
+<fieldset><legend>Data</legend><fieldset class=" collapsible"><legend>Upload</legend><div class="form-item" id="edit-filetype-wrapper">
+ <label for="edit-filetype">Data file type: </label>
+ <select name="filetype" class="form-select" id="edit-filetype" ><option value="sra">sra</option><option value="fastq">fastq</option><option value="sam">sam</option><option value="bam">bam</option></select>
+ <div class="description">Please select a filetype of your data.</div>
+</div>
+<div class="form-item" id="edit-datafilezip-wrapper">
+ <label for="edit-datafilezip">Data file (zip): </label>
+ <input type="file" name="files[datafilezip]"  class="form-file" id="edit-datafilezip" size="60" />
+
+ <div class="description">Please upload zip file containing all the chip-seq data files of the filetype selected above.</div>
+</div>
+</fieldset>
+</fieldset>
+<div class="form-item" id="edit-annotfile-wrapper">
+ <label for="edit-annotfile">Annotation file: </label>
+ <input type="file" name="files[annotfile]"  class="form-file" id="edit-annotfile" size="60" />
+
+ <div class="description">Please upload a sample annotation file. File must be in csv format with column headers.
+  	First column name must be sample names as in the data file and second column name must be "condition".
+  	Condition column format - "bgr1" or "sig1".</div>
+</div>
+<div class="form-item" id="edit-qualitycontrol-wrapper">
+ <label class="option" for="edit-qualitycontrol"><input type="checkbox" name="qualitycontrol" id="edit-qualitycontrol" value="TRUE"   class="form-checkbox" /> Perform quality control of the uploaded data. Report will be generated and saved in zip file.</label>
+</div>
+<div class="form-item" id="edit-goenrichment-wrapper">
+ <label class="option" for="edit-goenrichment"><input type="checkbox" name="goenrichment" id="edit-goenrichment" value="TRUE"   class="form-checkbox" /> GO enrichment analysis of the enriched peaks.</label>
+</div>
+<div class="form-item" id="edit-extractpeaks-wrapper">
+ <label class="option" for="edit-extractpeaks"><input type="checkbox" name="extractpeaks" id="edit-extractpeaks" value="TRUE"   class="form-checkbox" /> Extract enriched peak sequences.</label>
+</div>
+<div class="form-item" id="edit-memechip-wrapper">
+ <label class="option" for="edit-memechip"><input type="checkbox" name="memechip" id="edit-memechip" value="TRUE"   class="form-checkbox" /> Submit enriched peaks to MEME-ChIP.</label>
+</div>
+<div class="form-item" id="edit-upregion-wrapper">
+ <select name="upregion" class="form-select" id="edit-upregion" ><option value="100">100</option><option value="200">200</option><option value="500">500</option><option value="1000">1000</option><option value="2000">2000</option></select>
+ <div class="description">Select upstream promoter region.</div>
+</div>
+<div class="form-item" id="edit-downregion-wrapper">
+ <select name="downregion" class="form-select" id="edit-downregion" ><option value="50">50</option><option value="100">100</option><option value="200">200</option></select>
+ <div class="description">Select downstream promoter region.</div>
+</div>
+<div class="form-item" id="edit-diffbinding-wrapper">
+ <label class="option" for="edit-diffbinding"><input type="checkbox" name="diffbinding" id="edit-diffbinding" value="TRUE"   class="form-checkbox" /> Perform differential binding analysis. NOTE - This is only possible if you have replicates.</label>
+</div>
+<div class="form-item" id="edit-demethod-wrapper">
+ <label for="edit-demethod">Differential gene expression analysis: </label>
+ <select name="demethod" class="form-select" id="edit-demethod" ><option value="edgeR">edgeR</option><option value="DEseq">DEseq</option><option value="foldchange">foldchange</option><option value="allabove">allabove</option></select>
+</div>
+<fieldset><legend>Gene-list Analysis Framework</legend><div class="form-item" id="edit-david-wrapper">
+ <label class="option" for="edit-david"><input type="checkbox" name="david" id="edit-david" value="TRUE"   class="form-checkbox" /> Functional enrichmnent analysis using DAVID</label>
+</div>
+<div class="form-item" id="edit-drugtargets-wrapper">
+ <label class="option" for="edit-drugtargets"><input type="checkbox" name="drugtargets" id="edit-drugtargets" value="TRUE"   class="form-checkbox" /> Druggability analysis using CancerResource</label>
+</div>
+<div class="form-item" id="edit-annotgenesprofiler-wrapper">
+ <label class="option" for="edit-annotgenesprofiler"><input type="checkbox" name="annotgenesprofiler" id="edit-annotgenesprofiler" value="TRUE"   class="form-checkbox" /> Functional annotation of genes using gProfileR</label>
+</div>
+<div class="form-item" id="edit-annotgenesed-wrapper">
+ <label class="option" for="edit-annotgenesed"><input type="checkbox" name="annotgenesed" id="edit-annotgenesed" value="TRUE"   class="form-checkbox" /> Functional annotation of genes using EDanalysis</label>
+</div>
+<div class="form-item" id="edit-geneedbp-wrapper">
+ <label class="option" for="edit-geneedbp"><input type="checkbox" name="geneedbp" id="edit-geneedbp" value="TRUE"   class="form-checkbox" /> Gene Enrichment Disequilibrium Analysis using EDanalysis for BP</label>
+</div>
+<div class="form-item" id="edit-geneedmf-wrapper">
+ <label class="option" for="edit-geneedmf"><input type="checkbox" name="geneedmf" id="edit-geneedmf" value="TRUE"   class="form-checkbox" /> Gene Enrichment Disequilibrium Analysis using EDanalysis for MF</label>
+</div>
+<div class="form-item" id="edit-geneedcc-wrapper">
+ <label class="option" for="edit-geneedcc"><input type="checkbox" name="geneedcc" id="edit-geneedcc" value="TRUE"   class="form-checkbox" /> Gene Enrichment Disequilibrium Analysis using EDanalysis for CC</label>
+</div>
+</fieldset>
+<fieldset><legend>Promoter analysis</legend><div class="form-item" id="edit-upstream-wrapper">
+ <label for="edit-upstream">Select the upstream region: </label>
+ <select name="upstream" class="form-select" id="edit-upstream" ><option value="500">500</option><option value="1000">1000</option><option value="2000">2000</option><option value="5000">5000</option></select>
+</div>
+<div class="form-item" id="edit-downstream-wrapper">
+ <label for="edit-downstream">Select the downstream region: </label>
+ <select name="downstream" class="form-select" id="edit-downstream" ><option value="50">50</option><option value="100">100</option><option value="200">200</option></select>
+</div>
+<div class="form-item" id="edit-promoterextraction-wrapper">
+ <label class="option" for="edit-promoterextraction"><input type="checkbox" name="promoterextraction" id="edit-promoterextraction" value="TRUE"   class="form-checkbox" /> Extract the promoter sequences for the input genes</label>
+</div>
+<div class="form-item" id="edit-cpgdetection-wrapper">
+ <label class="option" for="edit-cpgdetection"><input type="checkbox" name="cpgdetection" id="edit-cpgdetection" value="TRUE"   class="form-checkbox" /> Detect CpG islands in the promoter sequences of the input genes</label>
+</div>
+<div class="form-item" id="edit-cpgremove-wrapper">
+ <label class="option" for="edit-cpgremove"><input type="checkbox" name="cpgremove" id="edit-cpgremove" value="TRUE"   class="form-checkbox" /> Remove sequences with over GC content in the promoter sequences of the input genes. (>55% GC content for human)</label>
+</div>
+<div class="form-item" id="edit-runmeme-wrapper">
+ <label class="option" for="edit-runmeme"><input type="checkbox" name="runmeme" id="edit-runmeme" value="TRUE"   class="form-checkbox" /> Submit the input genes to MEME Suite of tools for Motif Discovery, Motif Comparison and Motif Enrichment Analysis</label>
+</div>
+<div class="form-item" id="edit-tfbsover-wrapper">
+ <label class="option" for="edit-tfbsover"><input type="checkbox" name="tfbsover" id="edit-tfbsover" value="TRUE"   class="form-checkbox" /> Perform TFBS over-representation analysis using oPOSSUM</label>
+</div>
+</fieldset>
+<input type="submit" name="target_action" id="target_action" value="Start search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-4NbqE_EaqoF0UHm2fk3NP9KUkJ29LuJJ1Q94hvNB0J8" value="form-4NbqE_EaqoF0UHm2fk3NP9KUkJ29LuJJ1Q94hvNB0J8"  />
+<input type="hidden" name="form_id" id="edit-bi-inspect-chipseq-form" value="bi_inspect_chipseq_form"  />
+
+</div></form>
+          </div>
+                    <div id="footer"></div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      
+    </div> <!-- /container -->
+  </div>
+<!-- /layout -->
+
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "" : "http://stats.hillsweb.com/");_paq.push(["setSiteId", "19"]);_paq.push(["setTrackerUrl", u+"piwik.php"]);_paq.push(["setDoNotTrack", 1]);_paq.push(["trackPageView"]);_paq.push(["setIgnoreClasses", [ "no-tracking", "colorbox" ]]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src="../../sites/inspect.rdpa.org/files/piwik/piwike358.js?t";s.parentNode.insertBefore(g,s);})();
+//--><!]]>
+</script>
+  </body>
+</html>

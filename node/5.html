@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="../sites/inspect.rdpa.org/files/garland_favicon_0.ico" type="image/x-icon" />
+    <title>User Manual | INsPeCT</title>
+    <link type="text/css" rel="stylesheet" media="all" href="http://inspect.rdpa.org/modules/node/node.css?t" />
+<link type="text/css" rel="stylesheet" media="all" href="http://inspect.rdpa.org/modules/system/defaults.css?t" />
+<link type="text/css" rel="stylesheet" media="all" href="http://inspect.rdpa.org/modules/system/system.css?t" />
+<link type="text/css" rel="stylesheet" media="all" href="http://inspect.rdpa.org/modules/system/system-menus.css?t" />
+<link type="text/css" rel="stylesheet" media="all" href="http://inspect.rdpa.org/modules/user/user.css?t" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/inspect.rdpa.org/files/color/garland-73a3657e/stylee358.css?t" />
+<link type="text/css" rel="stylesheet" media="print" href="http://inspect.rdpa.org/themes/garland/print.css?t" />
+    <script type="text/javascript" src="http://inspect.rdpa.org/misc/jquery.js?t"></script>
+<script type="text/javascript" src="http://inspect.rdpa.org/misc/drupal.js?t"></script>
+<script type="text/javascript" src="../sites/all/modules/piwik/piwike358.js?t"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "piwik": { "trackMailto": 1 } });
+//--><!]]>
+</script>
+    <!--[if lt IE 7]>
+      <link type="text/css" rel="stylesheet" media="all" href="/themes/garland/fix-ie.css" />    <![endif]-->
+  </head>
+  <body class="sidebar-left">
+
+<!-- Layout -->
+  <div id="header-region" class="clear-block"></div>
+
+    <div id="wrapper">
+    <div id="container" class="clear-block">
+
+      <div id="header">
+        <div id="logo-floater">
+        <h1><a href="../" title="INsPeCT"><span>INsPeCT</span></a></h1>        </div>
+
+                  <ul class="links primary-links"><li class="menu-122 first"><a href="1" title="INsPeCT - INtegratve Platform for Cancer Transcriptomics">Home</a></li>
+<li class="menu-125"><a href="4" title="Flowcharts">Flowcharts</a></li>
+<li class="menu-126 active-trail active"><a href="5" title="User Manual" class="active">User manual</a></li>
+<li class="menu-124"><a href="3" title="Sample Datasets">Sample Datasets</a></li>
+<li class="menu-123 last"><a href="2" title="About Us">About Us</a></li>
+</ul>                          <ul class="links secondary-links"><li class="menu-462 first"><a href="../bi/inspect/chip-seq" title="ChIP-seq Data Import">ChIP-seq</a></li>
+<li class="menu-463"><a href="../bi/inspect/genelist" title="Gene-list Analysis">Gene-list Analysis</a></li>
+<li class="menu-465"><a href="../bi/inspect/microarray" title="Microarraay Data Import">Microarray</a></li>
+<li class="menu-466"><a href="../bi/inspect/rmani" title="RMaNI - Regulatory Module Network Inference Workflow">RMaNI</a></li>
+<li class="menu-467"><a href="../bi/inspect/rna-seq" title="RNA-seq Data Import">RNA-seq</a></li>
+<li class="menu-468 last"><a href="../bi/inspect/wgcna" title="WGCNA - Weighted Gene Co-expression Network Analysis">WGCNA</a></li>
+</ul>        
+      </div> <!-- /header -->
+
+              <div id="sidebar-left" class="sidebar">
+                    <div id="block-menu-secondary-links" class="clear-block block block-menu">
+
+  <h2>Links</h2>
+
+  <div class="content"><ul class="menu"><li class="leaf first"><a href="../bi/inspect/chip-seq" title="ChIP-seq Data Import">ChIP-seq</a></li>
+<li class="leaf"><a href="../bi/inspect/genelist" title="Gene-list Analysis">Gene-list Analysis</a></li>
+<li class="leaf"><a href="../bi/inspect/microarray" title="Microarraay Data Import">Microarray</a></li>
+<li class="leaf"><a href="../bi/inspect/rmani" title="RMaNI - Regulatory Module Network Inference Workflow">RMaNI</a></li>
+<li class="leaf"><a href="../bi/inspect/rna-seq" title="RNA-seq Data Import">RNA-seq</a></li>
+<li class="leaf last"><a href="../bi/inspect/wgcna" title="WGCNA - Weighted Gene Co-expression Network Analysis">WGCNA</a></li>
+</ul></div>
+</div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <div class="breadcrumb"><a href="../">Home</a></div>                              <h2>User Manual</h2>                                                  <div class="clear-block">
+            <div id="node-5" class="node">
+
+
+
+  
+  <div class="content clear-block">
+    <p><A name=1></a><b>INsPeCT: INtegrative Platform for Cancer Transcriptomics <br/></br/></b>Piyush B. Madhamshettiwar1, Stefan R. Maetschke1, Melissa J. Davis1, Antonio Reverter2 and Mark <br/>A. Ragan1,* <br/><br />
+1 The University of Queensland, Institute for Molecular Bioscience, 306 Carmody Road, St Lucia, <br/>Brisbane, Queensland 4072, Australia <br/>2 CSIRO Livestock Industries, 306 Carmody Road, St Lucia, Brisbane, Queensland 4072, Australia <br/><br />
+* To whom correspondence should be addressed. Tel: +61-7-3346-2616; Fax: +61-7-3346-2101; <br/>Email: <a href="mailto:m.ragan@uq.edu.au">m.ragan@uq.edu.au</a> <br/><br />
+<b> </b><br/><br />
+<b>User Manual <br/> </br/></b><br/><br />
+<b>Sample datasets </b><br/><br />
+We have provided sample datasets for each of INsPeCT’s framework. Before going through this <br/>tutorial please download all the required files for that analysis. We strongly suggest reading this user <br/>manual carefully for selecting the appropriate file formats and analysis options. Please enter all the <br/>required information in all required sections for avoiding failing of your analysis. Please note sample <br/>dataset provided for ChIP-seq data analysis is large in size (~1GB) and may take long time to <br/>download and upload. For each analysis alongwith the sample data we also provide required <br/>parameters that is required for the analysis, for example in online data import section of microarray <br/>data analysis we provide information on the chip type of the dataset as &#34;hgu133plus2&#34; and control <br/>condition as “Normal”. Or in case of WGCNA we provide both survival time variable “survivaltime” <br/>and event variable “death”. <br/><br />
+<b>Workflows </b><br/><br />
+Workflows section provides two main workflows, first showing the schematic representation of <br/>INsPeCT and second for novel analytical framework RMaNI. <br/><br />
+<b>Process info and results folder </b><br/><br />
+In all of the INsPeCT’s analyses frameworks, we provide timely update on the stage and steps of your <br/>analyses after you submit the job. Once the analysis is done we will provide you a link at the bottom <br/>of the page to download you results. Clinking on the link will show you individual result files. You can <br/>either download individual files or download complete results folder with or without input data. In <br/>the results folder, we also provide you a file listing all the parameters you have selected for a <br/>particular framework.<br/><br />
+<A name=2></a><b>Analysis Frameworks </b><br/><br />
+Here we provide brief guide for performing each analysis. For detail description of individual <br/>frameworks please refer to the manuscript. <br/><br />
+<b>Microarray Data Analysis </b><br/><br />
+<b>Analysis name </b><br/><br />
+This field allows you to enter a short name for your analysis. It is important to enter the name for <br/>your analysis because the generated result files will include this name in the file names for your <br/>convenience. For instance, if you enter “ovary” in this field generated files will look like <br/>“results_ovary.csv”. This field is must. <br/><br />
+<b>Data import </b><br/><br />
+<b>Import online </b><br/><br />
+Selecting “onlineimport” option will allow you to import the publicly available microarray gene <br/>expression data from NCBI Gene Expression Omnibus (GEO) repository. <br/><br />
+This can be done by entering the GEO accession number for the dataset. We support import of both <br/>series (GSE) and datasets (GDS), so the accession number must start from GSE or GDS e.g. <br/>“GSE14407” or “GDS3592”. At this stage data arising from Affymtrix chip types are supported. <br/><br />
+After entering the accession number upload the sample annotation file in “Upload sample <br/>annotation file” field. File must be in “.csv” format with column headers. First column name must be <br/>“samples” containing sample names as in the data file and second column name must be “condition” <br/>(like normal/cancer etc). This is very important for all the downstream analyses because INsPeCT will <br/>require information about which samples belongs to e.g.” normal” condition and which samples <br/>belongs to e.g. “cancer” condition. Example sample annotation file is provided in the sample <br/>datasets section. This field is must. <br/><br />
+Snapshot of the sample annotation file- <br/><br />
+samples,condition <br/>GSM359972,Normal <br/>GSM359973,Normal <br/>GSM359974,Normal <br/>GSM359984,Cancer <br/>GSM360039,Cancer <br/>GSM360040,Cancer <br/><br />
+<b>Import raw data (celfiles) </b><br/><br />
+Selecting “celfiles” option will allow you to import the raw microarray gene expression data from <br/>your local computer. These are the raw data files with “.cel” extension. This can be done by <br/>uploading a zip file containing all the “.cel” files. Example raw dataset is provided in the sample <br/>datasets section.<br/>  <A name=3></a>As you have uploaded raw data, you need to select the data normalisation method. We have <br/>provided five widely accepted methods – “mas5”, “rma”, “gcrma”, ”plier” and “dChip”. Default is <br/>“mas5”. <br/><br />
+After uploading the zip file and selecting data normalisation method, upload the sample annotation <br/>file in “Upload sample annotation file” field. File must be in “.csv” format with column headers. First <br/>column name must be “samples” containing sample names exactly matching the samples names in <br/>the data file and second column name must be “condition” (like normal/cancer etc). This is very <br/>important for all the downstream analyses because INsPeCT will require information about which <br/>samples belongs to e.g.” normal” condition and which samples belongs to e.g. “cancer” condition. <br/>Example sample annotation file is provided in the sample datasets section. This field is must. <br/><br />
+Snapshot of the sample annotation file- <br/><br />
+samples,condition <br/>GSM359972,Normal <br/>GSM359973,Normal <br/>GSM359974,Normal <br/>GSM359984,Cancer <br/>GSM360039,Cancer <br/>GSM360040,Cancer <br/><br />
+<b>Import processed data </b><br/><br />
+Selecting “procdata” option will allow you to import the normalised microarray gene expression data <br/>from your local computer. This can be done by uploading a “.csv” file containing processed data. File <br/>must be in “.csv” format with column headers. Data format is, first column must be “probe” with <br/>probe ids as identifiers and remaining columns must be samples. Example processed dataset is <br/>provided in the sample datasets section. <br/><br />
+Snapshot of the processed data – <br/><br />
+probe,GSM359972,GSM359973,GSM359974,GSM359984,GSM360039,GSM360040 <br/>117_at,4.9038,6.9663,7.2027,7.2027,6.6135,5.3785 <br/>1255_g_at,3.6934,4.8820,5.8916,5.8916,4.2432,3.4529 <br/>1438_at,3.2685,3.9953,3.4732,3.4732,4.7258,3.1192 <br/> <br/>After uploading the processed data file, upload the sample annotation file in “Upload sample <br/>annotation file” field. File must be in “.csv” format with column headers. First column name must be <br/>“samples” containing sample names exactly matching the sample names in the data file and second <br/>column name must be “condition” (like normal/cancer etc). This is very important for all the <br/>downstream analyses because INsPeCT will require information about which samples belongs to <br/>e.g.” normal” condition and which samples belongs to e.g. “cancer” condition. Example sample <br/>annotation file is provided in the sample datasets section. This field is must. <br/><br />
+Snapshot of the sample annotation file- <br/><br />
+samples,condition <br/>GSM359972,Normal <br/>GSM359973,Normal <br/>GSM359974,Normal <br/>GSM359984,Cancer <br/>GSM360039,Cancer <br/>  <A name=4></a>GSM360040,Cancer <br/><br />
+<b>Upload sample annotation </b><br/><br />
+As mentioned in the previous sections, “Upload sample annotation file” allow you to upload sample <br/>annotations. File must be in “.csv” format with column headers. First column name must be <br/>“samples” containing sample names exactly matching the samples names in the data file and second <br/>column name must be “condition” (like normal/cancer etc). This is very important for all the <br/>downstream analyses because INsPeCT will require information about which samples belongs to e.g. <br/>“normal” condition and which samples belongs to e.g. “cancer” condition. Example sample <br/>annotation file is provided in the sample datasets section. This field is must. <br/><br />
+Snapshot of the sample annotation file- <br/><br />
+samples,condition <br/>GSM359972,Normal <br/>GSM359973,Normal <br/>GSM359974,Normal <br/>GSM359984,Cancer <br/>GSM360039,Cancer <br/>GSM360040,Cancer <br/><br />
+<b>Select chip-type </b><br/><br />
+“Select chip type” allow you to select chip-type of your dataset. This is very important as it will affect <br/>the annotation of the probes to other gene identifiers and downstream enrichment analyses. Please <br/>confirm the chip-type of your data and select appropriate option from the list of 13 Affymetrix chip-<br/>types. Providing wrong chip-type will fail your analysis or result in incorrect results. <br/><br />
+<b>Enter control condition </b><br/><br />
+In the control condition text box enter the name of control condition for your dataset. For the <br/>sample datasets provided, control condition is “Normal”. This name should match exactly as in the <br/>sample annotation file. <br/><br />
+<b>Select top genes </b><br/><br />
+Often we require a set of genes those are changed across all the samples rather than differentially <br/>expressed between conditions, for example one could ask, which genes in the dataset show highest <br/>average expression or maximum coefficient of variation? “Select top genes” allow you to select and <br/>download top 1000, 2000 or 4000 genes showing “highest average expression” or “maximum <br/>coefficient of variation” across all samples in the dataset. <br/><br />
+<b>Differential gene expression analysis </b><br/><br />
+“Perform differential gene expression data analysis” allow you to identify differentially expressed <br/>genes between the conditions. For this analysis you need to enter the name of the control condition <br/>from your sample annotation file eg. “normal”, “untreated”, “wildtype” etc. in the “enter control <br/>condition from you sample annotation file” text box. Once you enter the control condition you can <br/>then select the method “LIMMA” or “SAM” for differential gene expression detection. “LIMMA” is <br/>default. We declare a differential gene expression significant if the Benjamini-Hochberg (BH) <br/>adjusted p-value is at most 0.05. This section is must if you like to perform any downstream analysis. <br/><br />
+<A name=5></a><b>Analysis of differentially expressed genes </b><br/><br />
+The analyses options provided in this section allow you to analyse differentially expressed genes <br/>data. These options are described in detail in the manuscript. <br/><br />
+<b>Gene-list analysis framework </b><br/><br />
+The analyses options provided in this section allow you to process your differentially expressed <br/>genes to functional analysis. These options are described in detail in the manuscript. <br/>  <A name=6></a><b>ChIP-seq Data Analysis </b><br/><br />
+<b>Analysis name </b><br/><br />
+This field allows you to enter a short name for your analysis. It is important to enter the name for <br/>your analysis because the generated result files will include this name in the file names for your <br/>convenience. For instance, if you enter “ovary” in this field generated files will look like <br/>“results_ovary.csv”. This field is must. <br/><br />
+<b>Data import </b><br/><br />
+This section allows you to import the raw ChIP-seq data from your local computer. We support four <br/>most common file formats “sra”, “fastq”, “sam”, “bam”. Select the appropriate file type of your data <br/>otherwise your analysis will fail. Once you enter the analysis name and select file type, “Upload zip <br/>file containing all the chip-seq data files of the filetype selected above” can be used to upload a zip <br/>file containing you data. We support data upload upto 2GB and please note that it may take long <br/>time. Example zip file is provided in the sample datasets section. This is very large file (~1.3GB) so <br/>please be patient while downloading this file. The standard file format for raw ChIP-seq reads used <br/>for input to Bowtie is FASTQ, which we then convert to SAM, BAM and sorted BAM formats for <br/>further analyses. For data that are available in SRA format we provide functionality to convert from <br/>SRA to FASTQ. <br/><br />
+<b>Upload sample annotation </b><br/><br />
+As mentioned in the previous sections, “Upload sample annotation file” allow you to upload sample <br/>annotations. File must be in “.csv” format with column headers. First column name must be <br/>“samples” containing sample names exactly matching the samples names in the data file and second <br/>column name must be “condition”. Currently, we support analysis of data with two conditions with <br/>replicates. Conditions must be “bgr1” for condition 1 and “sig1” for condition 2. This is very <br/>important for all the downstream analyses because INsPeCT will require information about which <br/>samples belongs to e.g. “bgr1” condition and which samples belongs to “sig1” condition. Example <br/>sample annotation file is provided in the sample datasets section. This field is must. <br/><br />
+Snapshot of the ChIP-seq sample annotation file- <br/><br />
+samples,condition <br/>SRR167632,bgr1 <br/>SRR167633,bgr1 <br/>SRR167638,sig1 <br/>SRR167639,sig1 <br/><br />
+<b>Quality control </b><br/><br />
+After mapping reads, we process the data for quality control using the FastQC tool. Selecting <br/>“Perform quality control of the uploaded data. Report will be generated and saved in zip file” will <br/>perform the quality control of the uploaded data and provided comprehensive report for each <br/>sample. <br/><br />
+<b>GO enrichment analysis of the enriched peaks </b><br/><br />
+This option allows you to perform GO enrichment analysis of the enriched peaks. <br/> <A name=7></a><b>Extract enriched peak sequences </b><br/><br />
+This option allows you to extract the enriched peak sequences in the fasta format. <br/><br />
+<b>Submit enriched peaks to MEME-ChIP </b><br/><br />
+Motif discovery is of obvious relevance in ChIP-seq analysis. INsPeCT integrates the widely used <br/>MEME Suite of tools for motif discovery, comparison and analysis. We use MEME-ChIP, which was <br/>specifically designed for analysis of ChIP-seq data. MEME-ChIP performs different motif analyses on <br/>the input data, and includes the MEME, TOMTOM, SPAMO, DREME, CENTRIMO and AME tools. An <br/>interactive HTML file will be provided which summarises the results and provide links to the results <br/>for each program. It also displays interactive plots for visual inspection. For this analysis you can <br/>select upstream and downstream promoter region. For upstream promoter region we provide five <br/>choices 100, 200, 500, 1000(default), 2000 bp, and for downstream region we provide three choices <br/>50, 100 (default), 200 bp. <br/><br />
+<b>Differential binding analysis </b><br/><br />
+This option allows you to perform differential binding analysis of the enriched peaks. We provide <br/>three most common and widely accepted methods “DEseq”, “edgeR”, “foldchange” or all these <br/>three using “allabove”. <br/><br />
+<b>Gene-list analysis framework </b><br/><br />
+The analyses options provided in this section allow you to process significant genes from differential <br/>binding analysis to functional analysis. These options are described in detail in the manuscript. <br/> <A name=8></a><b>RNA-seq Data Analysis </b><br/><br />
+<b>Analysis name </b><br/><br />
+This field allows you to enter a short name for your analysis. It is important to enter the name for <br/>your analysis because the generated result files will include this name in the file names for your <br/>convenience. For instance, if you enter “ovary” in this field generated files will look like <br/>“results_ovary.csv”. This field is must. <br/><br />
+<b>Data import </b><br/><br />
+For RNA-seq data analysis we only allow analysis of processed read counts. The file format for RNA-<br/>seq data is similar to microarray gene expression data. “Please upload a file containing processed <br/>data” will allow you to import the processed RNA-seq data from your local computer. File must be in <br/>“.csv” format with column headers. Data format is, first column must be “RefSeqID” with refseq <br/>identifiers only and remaining columns must be samples. Example processed dataset is provided in <br/>the sample datasets section. <br/><br />
+Snapshot of the processed data – <br/><br />
+RefSeqID,8N,8T,33N,33T,51N,51T <br/>NM_182502,2592,3,7805,321,3372,9 <br/>NM_003280,1684,0,1787,7,4894,559 <br/>NM_152381,9915,15,10396,48,23309,7181 <br/>NM_022438,2496,2,3585,239,1596,7 <br/>NM_001100112,4389,7,7944,16,9262,1818 <br/>NM_017534,4402,7,7943,16,9244,1815 <br/><br />
+<b>Upload sample annotation </b><br/><br />
+After uploading the processed data file, upload the sample annotation file in “Upload sample <br/>annotation file” field. File must be in “.csv” format with column headers. First column name must be <br/>“samples” containing sample names exactly matching the sample names in the data file and second <br/>column name must be “condition”. This is very important for all the downstream analyses because <br/>INsPeCT will require information about which samples belongs to e.g. “Normal” condition and which <br/>samples belongs to e.g. “Tumor” condition. Example sample annotation file is provided in the sample <br/>datasets section. This field is must. <br/><br />
+Snapshot of the sample annotation file- <br/><br />
+samples,condition <br/>8N,Normal <br/>8T,Tumor <br/>33N,Normal <br/>33T,Tumor <br/>51N,Normal <br/>51T,Tumor <br/><br />
+<b>Differential gene expression analysis </b><br/><br />
+“Perform differential gene expression data analysis” allow you to identify differentially expressed <br/>genes between the conditions based on the read counts. For this analysis you need to enter the <br/>name of the control condition from your sample annotation file eg. “Normal”, “untreated”, <br/> <A name=9></a>“wildtype” etc in the “enter control condition from you sample annotation file” text box. Once you <br/>enter the control condition you can then select the method “edgeR”, “DEseq” or both of them as <br/>“allabove” for differential gene expression detection. “edgeR” is default. We declare a differential <br/>gene expression significant if the Benjamini-Hochberg (BH) adjusted p-value is at most 0.05. This <br/>section is must if you like to perform any downstream functional analysis. <br/><br />
+<b>Gene-list analysis framework </b><br/><br />
+The analyses options provided in this section allow you to process your differentially expressed <br/>genes to functional analysis. These options are described in detail in the manuscript. <br/> <A name=10></a><b>Genelist Analysis </b><br/><br />
+<b>Analysis name </b><br/><br />
+This field allows you to enter a short name for your analysis. It is important to enter the name for <br/>your analysis because the generated result files will include this name in the file names for your <br/>convenience. For instance, if you enter “ovary” in this field generated files will look like <br/>“results_ovary.csv”. This field is must. <br/><br />
+<b>File upload </b><br/><br />
+If you have already analysed your data and you have a list of genes then this framework allows you <br/>to perform functional analysis of your genes of interest. File upload box allow you upload a gene list <br/>(Entrez IDs) file. File must be in csv format without header. Please note gene ids must be Entrez. <br/><br />
+<b>Analysis options </b><br/><br />
+The analyses options provided in this section allow you to process uploaded Entrez gene ids to <br/>functional analysis. These options are described in detail in the manuscript. <br/><br />
+<b> </b><br/><br />
+<b>Automated Workflows </b><br/><br />
+<b>RMaNI – Regulatory Module Network Inference </b><br/><br />
+RMaNI is the novel analytical workflow developed for cancer subtype specific transcriptional module <br/>network inference and analysis. It uses the Learning Module Networks (LeMoNe) algorithm for <br/>model based co-clustering of the expression data and Regulatory Impact Factors (RIF) to identify <br/>potential regulators of the inferred modules. We provide a very simple web interface for complex <br/>analysis workflow. Please see workflows section for detailed workflow in RMaNI. <br/><br />
+<b>Analysis name </b><br/><br />
+This field allows you to enter a short name for your analysis. It is important to enter the name for <br/>your analysis because the generated result files will include this name in the file names for your <br/>convenience. For instance, if you enter “ovary” in this field generated files will look like <br/>“results_ovary.csv”. This field is must. <br/><br />
+<b>Data import </b><br/><br />
+File upload box in the data import option will allow you to import the normalised microarray gene <br/>expression data from your local computer. This can be done by uploading a “.csv” file containing <br/>processed data. File must be in “.csv” format with column headers. Data format is, first column must <br/>be “probe” with probe ids as identifiers and remaining columns must be samples. Example <br/>processed dataset is provided in the sample datasets section. <br/><br />
+Snapshot of the processed data – <br/><br />
+probe,GSM359972,GSM359973, GSM359984, GSM360039 <br/>117_at,4.9038,6.9663,4.3324,6.8817 <br/> <A name=11></a>1255_g_at,3.6934,4.882,7.1288,6.9821 <br/>1438_at,3.2685,3.9953,6.6480,3.4728 <br/><br />
+<b>Upload sample annotation </b><br/><br />
+“Upload sample annotation file” allow you to upload sample annotations. File must be in “.csv” <br/>format with column headers. First column name must be “samples” containing sample names <br/>exactly matching the samples names in the data file and second column name must be “condition” <br/>(like normal/cancer etc). This is very important for all the downstream analyses because INsPeCT <br/>will require information about which samples belongs to e.g. “normal” condition and which samples <br/>belongs to different subtypes/conditions e.g. “HCC”, “cirrhosisHCC” or “cirrhosis”. Example sample <br/>annotation file is provided in the sample datasets section. This field is must. <br/><br />
+Snapshot of the sample annotation file for RMaNI- <br/><br />
+samples,condition <br/>GSM358209,Normal <br/>GSM358210,Normal <br/>GSM358114,HCC <br/>GSM358115,HCC <br/>GSM358113,cirrhosisHCC <br/>GSM358116,cirrhosisHCC <br/>GSM358119,cirrhosis <br/>GSM358123,cirrhosis <br/><br />
+<b>Enter control condition from sample annotation file </b><br/><br />
+For this analysis you must enter the name of the control condition from your sample annotation file <br/>eg. “Normal”, “untreated”, “wildtype” in the control condition text box. This is must for comparison <br/>of different subtypes/conditions with control condition. If this information is not provided then the <br/>analysis will fail. For the sample dataset provided in this tutorial, control condition is “Normal”. <br/><br />
+<b>Select chip-type </b><br/><br />
+“Select chip type” allow you to select chip-type of your dataset. This is very important as it will affect <br/>the annotation of the probes to other gene identifiers and downstream analyses. Please confirm the <br/>chip-type of your data and select appropriate option from the list of 13 Affymetrix chip-types. <br/>Providing wrong chip-type will fail your analysis or result in incorrect results. <br/><br />
+<b>Select number of genes </b><br/><br />
+Here you can select the number of genes for input to RMaNI. RMaNI will automatically select these <br/>many top (see RMaNI workflow for detailed procedure) genes from the input dataset. Your <br/>processed data must contain all the probes in the dataset eg. ~54000 probes in dataset with <br/>hgu133plus2 chip-type. Default is 1000 genes. <br/><br />
+ <br/><br />
+<b>WGCNA – Weighted Gene Co-expression Network Analysis </b><br/><br />
+This workflow is based on a general framework for WGCNA. It finds modules of highly correlated <br/>genes across microarray samples, associated with the external sample traits eg. overall survival, <br/>relapse-free survival, metastasis-free survival etc. You do not need to have the control condition for <br/>this analysis. This analysis can be applied to microarray dataset if survival information available. <br/> <A name=12></a><b>Analysis Name </b><br/><br />
+This field allows you to enter a short name for your analysis. It is important to enter the name for <br/>your analysis because the generated result files will include this name in the file names for your <br/>convenience. For instance, if you enter “ovary” in this field generated files will look like <br/>“results_ovary.csv”. This field is must. <br/><br />
+<b>Data import </b><br/><br />
+File upload box in the data import option will allow you to import the normalised microarray gene <br/>expression data from your local computer. This can be done by uploading a “.csv” file containing <br/>processed data. File must be in “.csv” format with column headers. Data format is, first column must <br/>be “probe” with probe ids as identifiers and remaining columns must be samples. Example <br/>processed dataset is provided in the sample datasets section. <br/><br />
+Snapshot of the processed data – <br/><br />
+probe,GSM359972,GSM359973,GSM359984,GSM360039 <br/>117_at,4.9038,6.9663,4.3324,6.8817 <br/>1255_g_at,3.6934,4.882,7.1288,6.9821 <br/>1438_at,3.2685,3.9953,6.6480,3.4728 <br/><br />
+<b>Upload sample annotation </b><br/><br />
+“Upload sample annotation file” allow you to upload sample annotations. File must be in “.csv” <br/>format with column headers. First column name must be “samples” containing sample names <br/>exactly matching the samples names in the data file and remaining two columns must contain <br/>information about survival time and event, respectively. This is very important for all the <br/>downstream analyses because INsPeCT will require information about events eg. event – death <br/>provides information about which patients are died of a disease (1) and which patients are alive (0). <br/>Example sample annotation file is provided in the sample datasets section. Survival time must be in <br/>months and only a number. Event must be boolean [0/1], 0 represents no event e.g. alive/no <br/>relapse/no metastatsis and 1 represents event e.g. dead/relapse/metastasis. This field is must. <br/><br />
+Snapshot of the sample annotation file for WGCNA- <br/><br />
+samples,survivaltime,death <br/>GSM368662,35,0 <br/>GSM368664,14,0 <br/>GSM368665,46,0 <br/>GSM368675,30,1 <br/>GSM368679,31,1 <br/>GSM368683,12,1 <br/><br />
+<b>Select background annotation type for your data </b><br/><br />
+“Select chip type” allow you to select chip-type of your dataset. This is very important as it will affect <br/>the annotation of the probes to other gene identifiers and downstream analyses. Please confirm the <br/>chip-type of your data and select appropriate option from the list of 13 Affymetrix chip-types. <br/>Providing wrong chip-type will fail your analysis or result in incorrect results. <br/><br />
+<b>Name of the column in sample annotation file which represents survival time information </b><br/> <A name=13></a>Please confirm and enter the name of the column in the sample annotation file which represents <br/>survival time information eg. survivaltime (refer sample annotation file ) in this text box. If this name <br/>and column name in the sample annotation file is not matching, analysis will fail. <br/><br />
+<b>Name of the column in sample annotation file which represents the event information </b><br/><br />
+Please confirm and enter the name of the column in the sample annotation file which represents <br/>event information eg. death (refer sample annotation file ) in this text box. If this name and column <br/>name in the sample annotation file is not matching, analysis will fail. <br/> </br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></p>
+  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+        </div>
+
+      </div>
+
+</div>
+          </div>
+                    <div id="footer"></div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      
+    </div> <!-- /container -->
+  </div>
+<!-- /layout -->
+
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "" : "http://stats.hillsweb.com/");_paq.push(["setSiteId", "19"]);_paq.push(["setTrackerUrl", u+"piwik.php"]);_paq.push(["setDoNotTrack", 1]);_paq.push(["trackPageView"]);_paq.push(["setIgnoreClasses", [ "no-tracking", "colorbox" ]]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src="../sites/inspect.rdpa.org/files/piwik/piwike358.js?t";s.parentNode.insertBefore(g,s);})();
+//--><!]]>
+</script>
+  </body>
+</html>
