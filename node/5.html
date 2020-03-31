@@ -199,7 +199,7 @@ samples,survivaltime,death <br/>GSM368662,35,0 <br/>GSM368664,14,0 <br/>GSM36866
 “Select chip type” allow you to select chip-type of your dataset. This is very important as it will affect <br/>the annotation of the probes to other gene identifiers and downstream analyses. Please confirm the <br/>chip-type of your data and select appropriate option from the list of 13 Affymetrix chip-types. <br/>Providing wrong chip-type will fail your analysis or result in incorrect results. <br/><br />
 <b>Name of the column in sample annotation file which represents survival time information </b><br/> <A name=13></a>Please confirm and enter the name of the column in the sample annotation file which represents <br/>survival time information eg. survivaltime (refer sample annotation file ) in this text box. If this name <br/>and column name in the sample annotation file is not matching, analysis will fail. <br/><br />
 <b>Name of the column in sample annotation file which represents the event information </b><br/><br />
-Please confirm and enter the name of the column in the sample annotation file which represents <br/>event information eg. death (refer sample annotation file ) in this text box. If this name and column <br/>name in the sample annotation file is not matching, analysis will fail. <br/> </br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></p>
+Please confirm and enter the name of the column in the sample annotation file which represents <br/>event information eg. death (refer sample annotation file ) in this text box. If this name and column <br/>name in the sample annotation file is not matching, analysis will fail.</br/></p>
   </div>
 
   <div class="clear-block">
@@ -217,11 +217,18 @@ Please confirm and enter the name of the column in the sample annotation file wh
     </div> <!-- /container -->
   </div>
 <!-- /layout -->
-
-  <script type="text/javascript">
-<!--//--><![CDATA[//><!--
-var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "" : "http://stats.hillsweb.com/");_paq.push(["setSiteId", "19"]);_paq.push(["setTrackerUrl", u+"piwik.php"]);_paq.push(["setDoNotTrack", 1]);_paq.push(["trackPageView"]);_paq.push(["setIgnoreClasses", [ "no-tracking", "colorbox" ]]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src="../sites/inspect.rdpa.org/files/piwik/piwike358.js?t";s.parentNode.insertBefore(g,s);})();
-//--><!]]>
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//stats.hillsweb.com/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '20']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
 </script>
   </body>
 </html>
